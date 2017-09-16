@@ -15,7 +15,8 @@ var svg = d3.select("body")
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ") scale(1,-1)");
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")")
+    .attr("transform", "scale(1,-1) translate(0,"+(height - cellSize * 7 - 1)+")");
 
 svg.append("text")
     .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
