@@ -49,7 +49,7 @@ d3.csv("data_2017.csv", function(error, csv) {
 
   var data = d3.nest()
       .key(function(d) { return d.date; })
-      .rollup(function(d) { return (d[0].number; })
+      .rollup(function(d) { return d[0].number; })
       .object(csv);
 
   rect.filter(function(d) { return d in data; })
