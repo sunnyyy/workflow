@@ -34,6 +34,7 @@ var rect = svg.append("g")
     .attr("height", cellSize)
     .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
     .attr("y", function(d) { return d.getDay() * cellSize; })
+    .attr("transform", "scale(-1,1)")
     .datum(d3.timeFormat("%Y-%m-%d"));
 
 svg.append("g")
