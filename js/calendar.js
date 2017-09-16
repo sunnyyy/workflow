@@ -44,7 +44,7 @@ svg.append("g")
     .enter().append("path")
     .attr("d", pathMonth);
 
-d3.csv("data_2017.csv", function(error, csv) {
+d3.csv("data/data_2017.csv", function(error, csv) {
   if (error) throw error;
 
   var data = d3.nest()
