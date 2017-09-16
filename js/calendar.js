@@ -6,7 +6,7 @@ var formatPercent = d3.format(".1%");
 
 var color = d3.scaleQuantize()
     .domain([0, 10])
-    .range(["#ffffff", "#f4b800","#e67d00","#e1002a","#b30159","#7d338c","#3163ac","#00a376","#7bb94e", "#999999"]);
+    .range(["#ffffff","#f4b800","#e67d00","#e1002a","#b30159","#7d338c","#3163ac","#00a376","#7bb94e","#cccccc"]);
 
 var svg = d3.select("body")
     .selectAll("svg")
@@ -18,7 +18,7 @@ var svg = d3.select("body")
     .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
 
 svg.append("text")
-    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(+90)")
     .attr("font-family", "sans-serif")
     .attr("font-size", 10)
     .attr("text-anchor", "middle")
