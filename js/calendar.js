@@ -53,7 +53,7 @@ d3.csv("data/data_2017.csv", function(error, csv) {
       .object(csv);
 
   rect.filter(function(d) { return d in data; })
-      .attr("fill", function(d) { return color(data[d]); })
+      .attr("fill", function(d) { console.log(color(data[d])); return color(data[d]); })
       .append("title")
       .text(function(d) { return d + ": " + formatPercent(data[d]); });
 });
