@@ -5,7 +5,7 @@ var width = 960,
 var formatPercent = d3.format(".1%");
 
 var color = d3.scaleQuantize()
-    .domain([-0.05, 0.05])
+    .domain([0, 10])
     .range(["#ffffff", "#f4b800","#e67d00","#e1002a","#b30159","#7d338c","#3163ac","#00a376","#7bb94e", "#999999"]);
 
 var svg = d3.select("body")
