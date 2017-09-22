@@ -4,7 +4,7 @@ var width = 960,
 
 var color = d3.scaleQuantize()
     .domain([0, 10])
-    .range(["#ffffff","#f4b800","#e67d00","#e1002a","#b30159","#7d338c","#3163ac","#00a376","#7bb94e","#ccc"]);
+    .range(["#fff","#93c","#36f","#3c9","#9f6","#fc0","#f90","#f30","#c06","#ddd"]);
 
 var svg = d3.select("body")
     .selectAll("svg")
@@ -24,7 +24,7 @@ svg.append("text")
 
 var rect = svg.append("g")
     .attr("fill", "none")
-    .attr("stroke", "#bbb")
+    .attr("stroke", "#ccc")
     .selectAll("rect")
     .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
     .enter().append("rect")
