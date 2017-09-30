@@ -4,7 +4,7 @@ var width = 960,
 
 var color = d3.scaleQuantize()
     .domain([0, 10])
-    .range(["#fff","#93c","#06c","#1a5","#7d4","#fc0","#f60","#f33","#c06","#ddd"]);
+    .range(["#fff","#fc6","#f96","#f66","#f69","#c69","#c39","#939","#936","#ddd"]);
 
 var svg = d3.select("body")
     .selectAll("svg")
