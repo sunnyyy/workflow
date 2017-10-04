@@ -1,4 +1,4 @@
-weekday,date,category,number,notes
+weekday,date,category,number,desc
 Monday,2017-07-24,misc,9,orientation
 Tuesday,2017-07-25,misc,9,setup
 Wednesday,2017-07-26,misc,9,team outing
@@ -42,7 +42,7 @@ Friday,2017-09-01,multi-threading,7,race condition
 Saturday,2017-09-02,off,0,weekend
 Sunday,2017-09-03,off,0,weekend
 Monday,2017-09-04,off,0,holiday
-Tuesday,2017-09-05,misc,9,training
+Tuesday,2017-09-05,misc,7,race condition
 Wednesday,2017-09-06,misc,9,training
 Thursday,2017-09-07,misc,9,training
 Friday,2017-09-08,misc,9,training
@@ -56,20 +56,20 @@ Friday,2017-09-15,resource,3,null pointer bug
 Saturday,2017-09-16,off,0,weekend
 Sunday,2017-09-17,off,0,weekend
 Monday,2017-09-18,ui,1,interface bug
-Tuesday,2017-09-19,,0,
-Wednesday,2017-09-20,,0,
-Thursday,2017-09-21,,0,
-Friday,2017-09-22,,0,
+Tuesday,2017-09-19,ui,1,interface bug
+Wednesday,2017-09-20,ui,1,interface bug
+Thursday,2017-09-21,other,8,unpropagated updates
+Friday,2017-09-22,control flow,4,process not stopped after app killed
 Saturday,2017-09-23,off,0,weekend
 Sunday,2017-09-24,off,0,weekend
-Monday,2017-09-25,,0,
-Tuesday,2017-09-26,,0,
-Wednesday,2017-09-27,,0,
-Thursday,2017-09-28,,0,
-Friday,2017-09-29,,0,
+Monday,2017-09-25,other,8,tracking down missing logs
+Tuesday,2017-09-26,other,8,tracking down missing logs
+Wednesday,2017-09-27,interfacing,6,ghost file ??
+Thursday,2017-09-28,interfacing,6,oh it's an OS thing; false alarm
+Friday,2017-09-29,other,8,can't reproduce reported bug
 Saturday,2017-09-30,off,0,weekend
 Sunday,2017-10-01,off,0,weekend
-Monday,2017-10-02,,0,
+Monday,2017-10-02,ui,1,interface bug
 Tuesday,2017-10-03,,0,
 Wednesday,2017-10-04,,0,
 Thursday,2017-10-05,,0,
