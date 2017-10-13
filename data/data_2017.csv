@@ -70,17 +70,17 @@ Friday,2017-09-29,other,8,can't reproduce reported bug
 Saturday,2017-09-30,off,0,weekend
 Sunday,2017-10-01,off,0,weekend
 Monday,2017-10-02,ui,1,interface bug
-Tuesday,2017-10-03,,0,
-Wednesday,2017-10-04,,0,
-Thursday,2017-10-05,,0,
-Friday,2017-10-06,,0,
+Tuesday,2017-10-03,interfacing,6,server setup
+Wednesday,2017-10-04,other,8,dependency on other team
+Thursday,2017-10-05,control flow,4,code migration (?)
+Friday,2017-10-06,control flow,4,code migration
 Saturday,2017-10-07,off,0,weekend
 Sunday,2017-10-08,off,0,weekend
-Monday,2017-10-09,,0,
-Tuesday,2017-10-10,,0,
-Wednesday,2017-10-11,,0,
-Thursday,2017-10-12,,0,
-Friday,2017-10-13,,0,
+Monday,2017-10-09,control flow,4,code migration
+Tuesday,2017-10-10,control flow,4,code migration
+Wednesday,2017-10-11,control flow,6,incorrect dependencies
+Thursday,2017-10-12,control flow,6,incorrect dependencies
+Friday,2017-10-13,control flow,4,code migration
 Saturday,2017-10-14,off,0,weekend
 Sunday,2017-10-15,off,0,weekend
 Monday,2017-10-16,,0,
